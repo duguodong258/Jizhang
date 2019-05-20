@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="@drawable/radius_bg_shape7"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+        <EditText
+            android:id="@+id/et_money"
+            android:hint="金额"
+            android:inputType="number"
+            android:focusable="true"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:src="@drawable/total_money"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            style="@style/style_widthW_heightW"
+            android:text="备注:"/>
+        <LinearLayout
+            android:background="@drawable/radius_bg_shape2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <EditText
+                android:id="@+id/et_remark"
+                android:background="@null"
+                android:hint="备注"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

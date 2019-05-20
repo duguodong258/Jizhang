@@ -16,7 +16,7 @@ import com.weituo.jizhang.model.DayModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private RelativeLayout root;
     private ListView listView;
     private ImageView ivAdd;
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         root = findViewById(R.id.root);
         ivAdd = findViewById(R.id.iv_add);
+        ivAdd.setOnClickListener(this);
         listView = findViewById(R.id.list_view);
         View headView = LayoutInflater.from(this).inflate(R.layout.list_header, null);
         View footView = LayoutInflater.from(this).inflate(R.layout.list_footer, null);
@@ -67,4 +68,17 @@ public class MainActivity extends AppCompatActivity {
         mListAdapter.notifyDataSetChanged();
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.iv_add :
+                showPop();
+                break;
+        }
+    }
+
+
+    private void showPop() {
+
+    }
 }
