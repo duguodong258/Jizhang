@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_code"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="902343"/>
+
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="13284759990"/>
+
+        <TextView
+            android:id="@+id/tv_my"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="13284759990"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="2015/05/19"/>
+
+    </LinearLayout>
+</LinearLayout>

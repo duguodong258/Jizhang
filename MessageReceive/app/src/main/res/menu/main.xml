@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/more"
+        app:showAsAction="always"
+        android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/set_phoneNum"
+                android:icon="@drawable/setting"
+                app:showAsAction="ifRoom"
+                android:title="设置号码"/>
+            <item
+                android:id="@+id/clear"
+                android:icon="@drawable/delete_record"
+                app:showAsAction="ifRoom"
+                android:title="清除记录"/>
+        </menu>
+    </item>
+</menu>

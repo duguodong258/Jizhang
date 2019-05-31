@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_id"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"/>
+
+        <TextView
+            android:id="@+id/tv_code"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码"/>
+
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="对方号码"/>
+
+        <TextView
+            android:id="@+id/tv_my"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="本机号码"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="时间"/>
+        <TextView
+            android:id="@+id/tv_status"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="上报状态"/>
+    </LinearLayout>
+</LinearLayout>
